@@ -59,3 +59,13 @@
 .esp {
     margin-bottom: 150px;
 }
+
+.linha{
+    background-color: #a1afff;
+    padding: 3px;
+    margin: 40px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
