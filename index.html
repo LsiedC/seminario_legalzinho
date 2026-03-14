@@ -20,12 +20,12 @@
                 <section class="titulo"><strong>Display Block</strong></section>
                 <div class="bloco">
                     <h1 class="fonte_texto">Serve para o elemento ocupar toda a largura disponível do seu contêiner
-                         e iniciar uma nova linha, empilhando-se verticalmente. </h1>
+                        e iniciar uma nova linha, empilhando-se verticalmente. </h1>
                 </div>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
+                <div class="bloco">
+                    <h3>Exemplos:</h3>
+                </div>
 
                 <div class="linha"></div>
             </div>
@@ -34,348 +34,424 @@
                 <section class="titulo"><strong>Display Inline</strong></section>
 
                 <div class="bloco">
-                    <h1 class="fonte_texto">Faz com que os elementos permaneçam no fluxo do texto, 
-                        ocupando apenas a largura necessária para o seu conteúdo, sem forçar uma quebra de linha. 
-                        Elementos inline não respeitam definições de altura (height) e largura (width), 
+                    <h1 class="fonte_texto">Faz com que os elementos permaneçam no fluxo do texto,
+                        ocupando apenas a largura necessária para o seu conteúdo, sem forçar uma quebra de linha.
+                        Elementos inline não respeitam definições de altura (height) e largura (width),
                         e as margens superior e inferior não funcionam. </h1>
                 </div>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
-            </div>
-
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline-block</strong></section>
-
                 <div class="bloco">
-                    <h1 class="fonte_texto">Semelhante ao inline, posiciona elementos lado a lado sem iniciar uma nova linha, 
-                        mas permite modificações de largura (width) e altura (height) como o block. </h1>
+                    <h3>Exemplos:</h3>
+                    <h3>Sem Display inline:</h3>
+                    <div class="yo"></div>
+                    <div class="yo"></div>
+
+
+                    <h3>Com Display inline:</h3>
+
+                    <div class="yo disin tamanho"></div>
+                    <div class="yo disin tamanho"></div>
+
                 </div>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
 
-                <div class="linha"></div>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Flex</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Transforma um elemento em um contêiner flexível, permitindo alinhar e distribuir 
-                        os elementos filhos em uma linha horizontal por padrão. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline-block</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Semelhante ao inline, posiciona elementos lado a lado sem iniciar uma nova
+                    linha,
+                    mas permite modificações de largura (width) e altura (height) como o block. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline-Flex</strong></section>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+                <h3>Sem Display inline-block:</h3>
+                <div class="yo"></div>
+                <div class="yo"></div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Comporta-se como um elemento em linha (inline), mantendo as propriedades flexíveis (flex). 
-                        Permite centralizar ou alinhar itens internos 
-                        sem forçar o contêiner principal a ocupar 100% da largura. </h1>
-                </div>
+                <h3>Com Display inline-block:</h3>
+                <div class="yo disinb tamanhom"></div>
+                <div class="yo disinb tamanhom"></div>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Grid</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Transforma um elemento em um contêiner de grade CSS, permitindo organizar elementos filhos 
-                        em linhas e colunas com alto controle de layout. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Flex</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Transforma um elemento em um contêiner flexível, permitindo alinhar e
+                    distribuir
+                    os elementos filhos em uma linha horizontal por padrão. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline grid</strong></section>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+                <h3>Sem Display flex:</h3>
+                <div class="yo"></div>
+                <div class="yo"></div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Serve para criar um contêiner de grade para organizar elementos internos (grid), 
-                        mas o contêiner se comporta como um elemento em linha (inline), 
-                        ficando na mesma linha que outros elementos ao redor. </h1>
+                <h3>Com Display flex:</h3>
+                <div class="flex">
+                    <div class="yo"></div>
+                    <div class="yo"></div>
                 </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Flow-root</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Faz o elemento gerar um contêiner de bloco e organiza o conteúdo usando o layout de fluxo (flow), 
-                        empilhando blocos e elementos inline como no padrão do CSS. 
-                        O root é uma pseudoclasse que indica que o elemento funciona como a “raiz” do seu próprio contexto de layout. 
-                        Juntos, flow-root cria um contêiner que organiza o conteúdo como no fluxo normal, 
-                        mas de forma independente do restante da página. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline-Flex</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Comporta-se como um elemento em linha (inline), mantendo as propriedades
+                    flexíveis (flex).
+                    Permite centralizar ou alinhar itens internos
+                    sem forçar o contêiner principal a ocupar 100% da largura. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Table</strong></section>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+                <h3>Sem Display inline-flex:</h3>
+                <div class="yo"></div>
+                <div class="yo"></div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Faz com que um elemento se comporte como uma tabela no CSS, permitindo organizar elementos 
-                        em estrutura semelhante a linhas e colunas, facilitando o alinhamento e a distribuição do conteúdo. </h1>
+                <h3>Com Display inline-flex:</h3>
+                <div class="disinf">
+                    <div class="yo"></div>
+                    <div class="yo"></div>
+                    <h3>REFAZER INLINE FLEX</h3>
                 </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Block flow</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">O block define o comportamento externo do elemento, fazendo com que ele ocupe toda 
-                        a largura disponível e comece em uma nova linha, enquanto o flow define o comportamento interno, 
-                        indicando que os elementos filhos serão organizados automaticamente seguindo o fluxo normal do HTML. 
-                        Na prática, a sintaxe display: block flow é equivalente ao display: block, sendo apenas 
-                        uma forma mais moderna de escrever a mesma regra. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Grid</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Transforma um elemento em um contêiner de grade CSS, permitindo organizar
+                    elementos filhos
+                    em linhas e colunas com alto controle de layout. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Block flex</strong></section>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+                <h3>Sem Display grid:</h3>
+                <div class="yo"></div>
+                <div class="yo"></div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Indica que o elemento é exibido como um bloco e utiliza o layout flexível. 
-                        O block faz com que o elemento ocupe toda a largura disponível e comece em uma nova linha, 
-                        enquanto o flex permite organizar e alinhar os elementos filhos de forma flexível dentro do container. </h1>
+                <h3>Com Display grid:</h3>
+                <div class="disg">
+                    <div class="yo"></div>
+                    <div class="yo"></div>
+                    <h3> REFAZER DISPLAY GRID</h3>
                 </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Block grid</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">O elemento é exibido como um bloco e utiliza o layout em grade. 
-                        O block faz com que o elemento ocupe toda a largura disponível e comece em uma nova linha, 
-                        enquanto o grid permite organizar os elementos filhos em linhas e colunas dentro do container. 
-                        Essa sintaxe é equivalente ao uso de display: grid no CSS. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline grid</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Serve para criar um contêiner de grade para organizar elementos internos
+                    (grid),
+                    mas o contêiner se comporta como um elemento em linha (inline),
+                    ficando na mesma linha que outros elementos ao redor. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Block flow-root</strong></section>
-
-                <div class="bloco">
-                    <h1 class="fonte_texto">Faz com que o elemento seja exibido como um bloco e criará 
-                        um novo contexto de fluxo para o layout. O block faz com que o elemento ocupe toda a largura disponível 
-                        e comece em uma nova linha. Já o flow-root faz com que o elemento organize seu próprio fluxo interno de conteúdo, 
-                        evitando interferências de elementos flutuantes externos. 
-                        Essa combinação está relacionada ao comportamento de display: flow-root no CSS. </h1>
-                </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+                <h3>Sem Display inline grid:</h3>
+                <div class="yo"></div>
+                <div class="yo"></div>
+                <h3>Com Display inline grid:</h3>
+                <div class="yo"></div>
+                <div class="yo"></div>
+                <h3> NÃO ENTENDI, REFAZER EXEMPLO</h3>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline flow</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">O elemento é mostrado no formato inline, permanecendo na mesma linha que outros elementos. 
-                        O termo flow indica que o conteúdo interno segue o fluxo normal do documento, 
-                        sendo organizado automaticamente conforme a ordem em que aparece no HTML.  </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Flow-root</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Faz o elemento gerar um contêiner de bloco e organiza o conteúdo usando o
+                    layout de fluxo (flow),
+                    empilhando blocos e elementos inline como no padrão do CSS.
+                    O root é uma pseudoclasse que indica que o elemento funciona como a “raiz” do seu próprio
+                    contexto de layout.
+                    Juntos, flow-root cria um contêiner que organiza o conteúdo como no fluxo normal,
+                    mas de forma independente do restante da página. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline flex</strong></section>
-
-                <div class="bloco">
-                    <h1 class="fonte_texto">Faz o elemento se comportar como inline, definindo o comportamento externo do elemento, 
-                        permitindo que ele fique lado a lado com outros sem quebrar a linha. 
-                        Já o valor flex define o comportamento interno, organizando e alinhando 
-                        os elementos filhos de forma flexível dentro do container. </h1>
-                </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline grid </strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">O elemento se comporta como inline, permanecendo na mesma linha que outros elementos, 
-                        e o valor grid permite organizar os elementos filhos em linhas e colunas dentro do container. 
-                        Faz com que o elemento fique alinhado com outros na mesma linha, 
-                        enquanto seu conteúdo interno é organizado em forma de grade. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Table</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Faz com que um elemento se comporte como uma tabela no CSS, permitindo
+                    organizar elementos
+                    em estrutura semelhante a linhas e colunas, facilitando o alinhamento e a distribuição do
+                    conteúdo. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Display Inline flow-root</strong></section>
-
-                <div class="bloco">
-                    <h1 class="fonte_texto">O valor inline define o comportamento externo do elemento, permitindo que ele fique 
-                        lado a lado com outros sem quebrar a linha. Já o valor flow-root define o comportamento interno, 
-                        criando um novo contexto de formatação que contém elementos flutuantes (floats) e permite definir largura e altura. 
-                        Essa sintaxe funciona da mesma forma que o display: inline-block. </h1>
-                </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Position: Static</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto"> Valor padrão para qualquer elemento da página. Garantirá que ele seguirá o
-                        fluxo de
-                        renderização padrão atribuído pela propriedade display. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Block flow</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">O block define o comportamento externo do elemento, fazendo com que ele
+                    ocupe toda
+                    a largura disponível e comece em uma nova linha, enquanto o flow define o comportamento interno,
+                    indicando que os elementos filhos serão organizados automaticamente seguindo o fluxo normal do
+                    HTML.
+                    Na prática, a sintaxe display: block flow é equivalente ao display: block, sendo apenas
+                    uma forma mais moderna de escrever a mesma regra. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Position: Relative</strong></section>
-
-                <div class="bloco">
-                    <h1 class="fonte_texto">Ao aplicarmos o tipo relative, a posição deste elemento poderá ser
-                        manipulada através das
-                        propriedades Top, Bottom, Left, Right. Estes por sua vez assume valores numéricos que
-                        determinaram em qual coordenada X ou Y seu elemento irá se mover. </h1>
-                </div>
-
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Position: Absolute</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">O position absolute garante que você consiga posicionar qualquer elemento de
-                        sua página de
-                        acordo com o elemento pai que tenha um posicionamento diferente de static. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Block flex</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">Indica que o elemento é exibido como um bloco e utiliza o layout flexível.
+                    O block faz com que o elemento ocupe toda a largura disponível e comece em uma nova linha,
+                    enquanto o flex permite organizar e alinhar os elementos filhos de forma flexível dentro do
+                    container. </h1>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Positon: Fixed</strong></section>
-
-                <div class="bloco">
-                    <h1 class="fonte_texto">Este tipo de posição se comporta muito similar ao position absolute, com a
-                        única diferença que
-                        sua referência de posição é ao elemento window/body e não ao elemento pai no qual este está
-                        inserido. </h1>
-                </div>
-
-                <div class="bloco">
-                    <h2 class="fonte_texto">Exemplos:</h2>
-                </div>
-
-                <div class="linha"></div>
+            <div class="bloco">
+                <h3>Exemplos:</h3>
             </div>
 
-            <div class="esp">
-                <section class="titulo"><strong>Position: Sticky</strong></section>
+            <div class="linha"></div>
+        </div>
 
-                <div class="bloco">
-                    <h1 class="fonte_texto">Permite criarmos elementos que dependendo de sua posição setada, hora
-                        funcionam como relative e
-                        outras como fixed.
-                        É um recurso muito interessante para utilização de menus que são fixos e ao mesmo tempo
-                        relativos quando se é necessário. </h1>
-                </div>
+        <div class="esp">
+            <section class="titulo"><strong>Display Block grid</strong></section>
 
-                    <div class="bloco">
-                        <h3>Exemplos:</h3>
-                    </div>
-                    
-                <div class="linha"></div>
+            <div class="bloco">
+                <h1 class="fonte_texto">O elemento é exibido como um bloco e utiliza o layout em grade.
+                    O block faz com que o elemento ocupe toda a largura disponível e comece em uma nova linha,
+                    enquanto o grid permite organizar os elementos filhos em linhas e colunas dentro do container.
+                    Essa sintaxe é equivalente ao uso de display: grid no CSS. </h1>
             </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Display Block flow-root</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">Faz com que o elemento seja exibido como um bloco e criará
+                    um novo contexto de fluxo para o layout. O block faz com que o elemento ocupe toda a largura
+                    disponível
+                    e comece em uma nova linha. Já o flow-root faz com que o elemento organize seu próprio fluxo
+                    interno de conteúdo,
+                    evitando interferências de elementos flutuantes externos.
+                    Essa combinação está relacionada ao comportamento de display: flow-root no CSS. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline flow</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">O elemento é mostrado no formato inline, permanecendo na mesma linha que
+                    outros elementos.
+                    O termo flow indica que o conteúdo interno segue o fluxo normal do documento,
+                    sendo organizado automaticamente conforme a ordem em que aparece no HTML. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline flex</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">Faz o elemento se comportar como inline, definindo o comportamento externo
+                    do elemento,
+                    permitindo que ele fique lado a lado com outros sem quebrar a linha.
+                    Já o valor flex define o comportamento interno, organizando e alinhando
+                    os elementos filhos de forma flexível dentro do container. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline grid </strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">O elemento se comporta como inline, permanecendo na mesma linha que outros
+                    elementos,
+                    e o valor grid permite organizar os elementos filhos em linhas e colunas dentro do container.
+                    Faz com que o elemento fique alinhado com outros na mesma linha,
+                    enquanto seu conteúdo interno é organizado em forma de grade. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Display Inline flow-root</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">O valor inline define o comportamento externo do elemento, permitindo que
+                    ele fique
+                    lado a lado com outros sem quebrar a linha. Já o valor flow-root define o comportamento interno,
+                    criando um novo contexto de formatação que contém elementos flutuantes (floats) e permite
+                    definir largura e altura.
+                    Essa sintaxe funciona da mesma forma que o display: inline-block. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Position: Static</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto"> Valor padrão para qualquer elemento da página. Garantirá que ele seguirá o
+                    fluxo de
+                    renderização padrão atribuído pela propriedade display. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Position: Relative</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">Ao aplicarmos o tipo relative, a posição deste elemento poderá ser
+                    manipulada através das
+                    propriedades Top, Bottom, Left, Right. Estes por sua vez assume valores numéricos que
+                    determinaram em qual coordenada X ou Y seu elemento irá se mover. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Position: Absolute</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">O position absolute garante que você consiga posicionar qualquer elemento de
+                    sua página de
+                    acordo com o elemento pai que tenha um posicionamento diferente de static. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Positon: Fixed</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">Este tipo de posição se comporta muito similar ao position absolute, com a
+                    única diferença que
+                    sua referência de posição é ao elemento window/body e não ao elemento pai no qual este está
+                    inserido. </h1>
+            </div>
+
+            <div class="bloco">
+                <h2 class="fonte_texto">Exemplos:</h2>
+            </div>
+
+            <div class="linha"></div>
+        </div>
+
+        <div class="esp">
+            <section class="titulo"><strong>Position: Sticky</strong></section>
+
+            <div class="bloco">
+                <h1 class="fonte_texto">Permite criarmos elementos que dependendo de sua posição setada, hora
+                    funcionam como relative e
+                    outras como fixed.
+                    É um recurso muito interessante para utilização de menus que são fixos e ao mesmo tempo
+                    relativos quando se é necessário. </h1>
+            </div>
+
+            <div class="bloco">
+                <h3>Exemplos:</h3>
+            </div>
+
+            <div class="linha"></div>
+        </div>
 
         </div>
     </main>
