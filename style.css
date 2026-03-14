@@ -110,3 +110,33 @@
 
     display: grid;
 }
+
+.dist {
+    display: table;
+}
+
+.li {
+    display: table-row;
+}
+
+.co {
+    display: table-cell;
+}
+
+.disblof {
+    display: block;
+    display: flex;
+}
+
+.disblog {
+    display: block;
+    display: grid;
+}
+
+.disinfle {
+    display: inline-flex;
+}
+
+.posrel {
+    position: relative;
+}
