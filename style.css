@@ -112,10 +112,16 @@
 }
 
 .disg {
-
+    grid-template-columns: 200px auto 100px;
     display: grid;
+    /* rows (tamanho da linha) */
+    /* Fr(fracao da tela) 1fr (1fracao) 2fr (2fracoes) */
+    /* Repeat (repeat (5(itens), 200px(tamanho) */
+    /* gap (espacamento) 20px */
 }
-
+#igrid{
+    display: inline-grid;
+}
 .dist {
     display: table;
 }
@@ -154,7 +160,7 @@
 
 .fix {
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
 
 
