@@ -4,6 +4,7 @@
     padding: 15px;
     position: sticky;
     top: 0;
+    z-index: 10;
 
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,8 +32,7 @@
 
 .titulo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #a1afff;
     margin-top: 10px;
     margin-left: 90px;
@@ -40,12 +40,126 @@
     margin-bottom: 10px;
     padding: 20px;
     color: white;
-    border-left: #8194ff;
-    border-radius: 30px;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
 
 }
 
-.amarelo{
-    background-color: yellow;
-    padding: 10px;
+.bloco {
+    background-color: #c7d0ff;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+
+.fonte_texto {
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linha {
+    background-color: #a1afff;
+    padding: 3px;
+    margin: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.yo {
+    background-color: rgb(255, 255, 0);
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.tamanhog {
+
+    height: 150px;
+    width: 150px;
+}
+
+.tamanhom {
+    height: 75px;
+    width: 75px;
+}
+
+.disb{
+    display: block;
+}
+
+.disinb {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.disinf {
+    display: inline-flex;
+}
+
+.disin {
+    display: inline;
+}
+
+.disg {
+
+    display: grid;
+}
+
+.dist {
+    display: table;
+}
+
+.li {
+    display: table-row;
+}
+
+.co {
+    display: table-cell;
+}
+
+.disinfle {
+    display: inline-flex;
+}
+
+.posrel1 {
+    position: relative;
+    left: 250px;
+}
+
+.posrel2 {
+    position: relative;
+    left: 500px;
+}
+
+.posabs {
+    position: absolute;
+}
+
+.blu {
+    background-color: rgb(0, 60, 255);
+    padding: 20px;
+    margin: 10px;
+}
+
+.fix {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+.sticky {
+    position: sticky;
 }
