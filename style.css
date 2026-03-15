@@ -122,6 +122,7 @@
 #igrid{
     display: inline-grid;
 }
+
 #bordasf{
     width: 600px;
     margin: 50px 20px;
@@ -179,11 +180,25 @@
     margin: 10px;
 }
 
+.redondo{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+#imagem_redondo{
+    width: 45px;
+    height: 45px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
 .fix {
     position: fixed;
-    bottom: 10px;
-    left: 0;
-
+    bottom: 25px;
+    left: 140px;
 
 }
 
