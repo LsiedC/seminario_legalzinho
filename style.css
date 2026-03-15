@@ -91,6 +91,10 @@
     width: 75px;
 }
 
+.disb{
+    display: block;
+}
+
 .disinb {
     display: inline-block;
 }
