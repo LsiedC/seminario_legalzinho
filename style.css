@@ -122,6 +122,27 @@
 #igrid{
     display: inline-grid;
 }
+#bordasf{
+    width: 600px;
+    margin: 50px 20px;
+    border: 2px solid #000;
+}
+#borda{
+    width: 600px;
+    margin: 50px 20px;
+    border: 2px solid #000;
+    /* sem o flow root o filho ficaria para fora do elemento */
+    display: flow-root;
+}
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+.flowroot{
+    display: flow-root;
+}
 .dist {
     display: table;
 }
