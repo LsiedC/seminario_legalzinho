@@ -19,6 +19,9 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.block{
+    display: block;
+}
 
 .centralizada {
     padding: 90px;
